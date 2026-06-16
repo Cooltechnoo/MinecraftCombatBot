@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "telavivfx",
+  "version": "${version}",
+  "name": "TelAvivFX",
+  "description": "Fuck You nigga",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/telavivfx/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.Cooltechno.telavivfx.client.TelavivfxClient"
+    ],
+    "main": [
+      "de.Cooltechno.telavivfx.Telavivfx"
+    ]
+  },
+  "mixins": [
+    "telavivfx.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
