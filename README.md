@@ -1,4 +1,4 @@
-# MinecraftCombatBot
+# MinecraftCombatBot - Beta
 
 A high-performance client-side utility mod built natively for **Minecraft 1.21.11** using the **Fabric** framework. This mod features smart close-quarters spacing adjustments, predictive target vector tracking, and dynamic environment calculations.
 
